@@ -39,7 +39,7 @@ It shows a medium for available passengers to pick up them on the interest of ca
 * ### IDE
     * We have used Android Studio Electric Eel | 2022.1.1
 
-Detailed documentation can be found [here](https://github.com/mayureshms/CarPool-Android-App).
+Detailed documentation can be found [here](https://github.com/mayureshms/CarPool-Android-App/blob/dev/documentation.pptx).
 
 
 ### Contributors
