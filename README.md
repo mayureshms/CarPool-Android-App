@@ -48,7 +48,3 @@ Detailed documentation can be found [here](https://github.com/mayureshms/CarPool
 
 ### Guide
 \- Prof. Ritambhara Korpal
-
-
-
-# CarPool-Android-App
