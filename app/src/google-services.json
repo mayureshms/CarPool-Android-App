@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "20008265429",
+    "firebase_url": "https://rideshare-691fa-default-rtdb.firebaseio.com",
+    "project_id": "rideshare-691fa",
+    "storage_bucket": "rideshare-691fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20008265429:android:467183567962d54513a45c",
+        "android_client_info": {
+          "package_name": "com.rideshare.carpooling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20008265429-hgmkgtbsgics7g643n9jqksl43ifjj2t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rideshare.carpooling",
+            "certificate_hash": "562fa8fd6f403c878b8eab0c5e7d0eed8d3d0d08"
+          }
+        },
+        {
+          "client_id": "20008265429-jim36pn1uo0fokca6mcuhtsk6qe0i2k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjA6zfTcDldFlJ1vfTJOJo8KiGZeE2B6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20008265429-jim36pn1uo0fokca6mcuhtsk6qe0i2k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

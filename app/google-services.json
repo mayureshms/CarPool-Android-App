@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "880433646069",
+    "project_id": "car-pooling-8cf58",
+    "storage_bucket": "car-pooling-8cf58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880433646069:android:9eb17a124bb9c1faaaf8bc",
+        "android_client_info": {
+          "package_name": "com.rideshare.carpooling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880433646069-susdc81782v78hpiulp8hisloqdfqiih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsYv_CvE9ISi2aihnqg02s0gMZHEFvk68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880433646069-susdc81782v78hpiulp8hisloqdfqiih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

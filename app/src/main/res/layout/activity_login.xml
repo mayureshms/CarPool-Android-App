@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activities.LoginActivity">
+
+    <EditText
+        android:id="@+id/idname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/lightBlack"
+        android:hint="Enter Your Name "
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/lightBlack"
+        android:textColorHint="@color/lightBlack" />
+    <EditText
+        android:id="@+id/idEdtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idname"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="@color/lightBlack"
+        android:hint="Enter your phone"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textColor="@color/lightBlack"
+        android:textColorHint="@color/lightBlack" />
+
+    <Button
+        android:id="@+id/idBtnGetOtp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/idEdtPhoneNumber"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="10dp"
+        android:text="Get OTP"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:id="@+id/idEdtOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnGetOtp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/lightBlack"
+        android:hint="Enter OTP"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textColor="@color/lightBlack"
+        android:enabled="false"
+        android:textColorHint="@color/lightBlack" />
+
+    <Button
+        android:id="@+id/idBtnVerify"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtOtp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="129dp"
+        android:enabled="false"
+        android:text="Verify OTP"
+        android:textAllCaps="false" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        app:srcCompat="@drawable/cover_auth" />
+
+
+</RelativeLayout>

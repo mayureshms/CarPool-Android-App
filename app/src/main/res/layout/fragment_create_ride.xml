@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Fragments.CreateRideFragment">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:src="@drawable/demo_image" />
+
+    <TextView
+        android:id="@+id/RiderNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="12dp"
+        android:backgroundTint="@color/lightBlack"
+        android:hint=" Rider Name"
+        android:inputType="text"
+        android:textColor="@color/lightBlack"
+        android:textColorHint="@color/lightBlack"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/SourceAddressEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:hint=" Enter  Source"
+        android:inputType="text"
+        android:textColor="@color/lightBlack"
+        android:textColorHint="@color/lightBlack"
+        android:backgroundTint="@color/lightBlack"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/DestinationAddressEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:hint=" Enter  Destination"
+        android:inputType="text"
+        android:textColor="@color/lightBlack"
+        android:textColorHint="@color/lightBlack"
+        android:backgroundTint="@color/lightBlack"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/TotalPassengersEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:hint=" Total   Passengers"
+        android:inputType="number"
+        android:textColor="@color/lightBlack"
+        android:textColorHint="@color/lightBlack"
+        android:backgroundTint="@color/lightBlack"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/RidePriceEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:hint=" Price For Passenger"
+        android:inputType="number"
+        android:textColor="@color/lightBlack"
+        android:textColorHint="@color/lightBlack"
+        android:backgroundTint="@color/lightBlack"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:id="@+id/PhoneNumberEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:hint=" +91xxxxxxxxxx"
+        android:layout_marginLeft="12dp"
+        android:inputType="phone"
+        android:textColor="@color/lightBlack"
+        android:textColorHint="@color/lightBlack"
+        android:backgroundTint="@color/lightBlack"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/time"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"
+            android:text="Pick Time"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/idBtnPickDate"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="right"
+            android:layout_margin="20dp"
+            android:text="Pick Date"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/CreateRideBtn"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Create Ride" />
+
+</LinearLayout>
